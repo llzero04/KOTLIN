@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ClassProjects</string>
+
+    <string-array name="Colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="Operators">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+        <item>%</item>
+    </string-array>
+</resources>
