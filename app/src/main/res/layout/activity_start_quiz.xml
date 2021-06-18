@@ -16,6 +16,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/tvParticipantName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:textSize="22sp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:background="#ff00fff8" />
+
             <ProgressBar
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
@@ -53,7 +63,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@drawable/bordered_rectangle"
-                />
+                android:tag="1"/>
 
 
             <TextView
@@ -66,7 +76,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@drawable/bordered_rectangle"
-                />
+                android:tag="2"/>
 
 
             <TextView
@@ -79,7 +89,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@drawable/bordered_rectangle"
-                />
+                android:tag="3"/>
 
 
             <TextView
@@ -92,7 +102,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@drawable/bordered_rectangle"
-                />
+                android:tag="4"/>
         </LinearLayout>
 
         <LinearLayout
