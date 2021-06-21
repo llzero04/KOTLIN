@@ -22,10 +22,10 @@ class QuizApp : AppCompatActivity() {
             }
             else
             {
-                var next : Intent = Intent(this , StartQuiz()::class.java);
-                next.putExtra("name" , etUserName.text.toString());
+                var nextActivity : Intent = Intent(this , StartQuiz()::class.java);
+                nextActivity.putExtra("name" , etUserName.text.toString());
 
-                startActivity(next);
+                startActivity(nextActivity);
 
 //                finish();
             }

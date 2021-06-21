@@ -27,6 +27,7 @@
                 android:background="#ff00fff8" />
 
             <ProgressBar
+                android:id="@+id/pgQuizProgressBar"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"
@@ -136,6 +137,7 @@
                 android:layout_weight="1"/>
 
         </LinearLayout>
+
 
     </LinearLayout>
 
