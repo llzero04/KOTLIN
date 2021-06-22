@@ -8,5 +8,5 @@
         android:width="1dp"></stroke>
 
     <solid
-        android:color="#FF0000"></solid>
+        android:color="#BD1E1E"></solid>
 </shape>

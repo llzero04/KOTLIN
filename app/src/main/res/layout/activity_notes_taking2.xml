@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesTakingActivity2">
+
+    <Spinner
+        android:id="@+id/spNotesCourses"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etmlNoteTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/spNotesCourses"
+        app:layout_constraintStart_toStartOf="@+id/spNotesCourses"
+        app:layout_constraintTop_toBottomOf="@+id/spNotesCourses"
+        android:hint="Note Title"/>
+
+    <EditText
+        android:id="@+id/etmlNoteContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/etmlNoteTitle"
+        app:layout_constraintStart_toStartOf="@+id/etmlNoteTitle"
+        app:layout_constraintTop_toBottomOf="@+id/etmlNoteTitle"
+        android:hint="Note Content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

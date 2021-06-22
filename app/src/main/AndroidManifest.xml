@@ -10,14 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ClassProjects">
-        <activity android:name=".QuizApp">
+        <activity android:name=".NotesTakingActivity2"></activity>
+        <activity
+            android:name=".NotesTakingActivity1"
+            android:label="@string/title_activity_notes_taking1"
+            android:theme="@style/Theme.ClassProjects.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartQuiz" />
     </application>
 
 </manifest>
